@@ -5,7 +5,7 @@ export default createConfig({
   chains: {
     mainnet: {
       id: 1,
-      rpc: process.env.PONDER_RPC_URL_1,
+      rpc: process.env.PONDER_RPC_URL_1 || "https://eth-mainnet.g.alchemy.com/v2/demo",
     },
   },
   contracts: {
@@ -16,5 +16,9 @@ export default createConfig({
       startBlock: 13142655,
       endBlock: 13150000,
     },
+  },
+  database: {
+    kind: "pglite",
+    directory: ".ponder/sqlite.db",
   },
 });

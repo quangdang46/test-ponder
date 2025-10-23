@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "ponder dev",
-    "start": "ponder start",
+    "start": "NODE_OPTIONS='--max-old-space-size=512' ponder start",
     "build": "ponder codegen",
     "db": "ponder db",
     "codegen": "ponder codegen",
