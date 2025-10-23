@@ -17,6 +17,6 @@
     }
   ],
   "env": {
-    "PONDER_RPC_URL_1": "@ponder_rpc_url_1"
+    "PONDER_RPC_URL_1": "@PONDER_RPC_URL_1"
   }
 }
