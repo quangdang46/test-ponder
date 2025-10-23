@@ -15,8 +15,5 @@
       "src": "/(.*)",
       "dest": "/src/api/index.ts"
     }
-  ],
-  "env": {
-    "PONDER_RPC_URL_1": "@PONDER_RPC_URL_1"
-  }
+  ]
 }
